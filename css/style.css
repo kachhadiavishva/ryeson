@@ -734,4 +734,125 @@ img.card-img-top {
 .ae-bg {
     position: absolute;
     z-index: 999;
+    left: 8%;
+    right: 8%;
+}
+.custom-size{
+	width:50%;
+}
+.custom-size1{
+	width:70%;
+}
+.custom-size2{
+	width:30%;
+}
+
+.custom-size .r-more{
+    text-align: right;
+}
+.arrow-align{
+    text-align: right;
+}
+
+.small-block h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+.small-block .r-more{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.small-block .r-more img{
+    width: 21px;
+}
+.small-block .arrow-align{
+    align-self: end;
+}
+.small-block .arrow-align .prev1{
+    width: 30px;
+    margin-right: 10px;
+}
+.small-block .arrow-align .next1{
+    width: 30px;
+    
+}
+
+.custom-col.brand-size {
+    width: 11%;
+     margin: 0px 0px 20px 0px;
+     padding: 0px 5px;
+}
+.custom-col.brand-size div{
+     background: white;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 4px;
+    text-align: center;
+}
+.custom-col.brand-size div img{
+  width: 100px;
+}
+.brand-block {
+    margin-top: -20px;
+    z-index: 9999;
+    position: relative;
+}
+
+@media (max-width:1199.5px) {
+    .custom-col.brand-size {
+        width: 20%;
+        
+    }
+    .slick-carousel1 div img{
+        height: 300px;
+        object-fit: cover;
+    background-position: top;
+    }
+    .ae-bg {
+         left: 13% !important;
+        right: 13% !important;
+    }
+}
+
+@media (max-width:991.5px) {
+.custom-size1 h1{
+    font-size: 28px;
+}
+}
+
+@media (max-width:767.5px){
+    .custom-size1 h1{
+        font-size: 25px;
+    }
+    .custom-col.brand-size {
+        width: 25%;
+        
+    }
+}
+@media (max-width:574.5px){
+    .custom-size1 h1{
+        font-size: 15px;
+    }
+    .custom-col.brand-size {
+        width: 50%;
+        
+    }
+    .small-block h5 {
+       font-size: 15px;
+    }
+    .small-block .r-more {
+        font-size: 11px;
+         margin-top: 4px;
+    }
+    .custom-size1{
+        width:100%;
+    }
+    .custom-size2{
+        width:100%;
+    }
 }
